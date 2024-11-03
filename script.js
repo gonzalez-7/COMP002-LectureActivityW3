@@ -21,4 +21,3 @@ function secondFunction() {
 }
 
 firstFunction();
-Function Calling Another Function
