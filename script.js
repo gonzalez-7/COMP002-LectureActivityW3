@@ -9,3 +9,16 @@ function circumference(diameter) {
 }
 
 console.log(circumference(10));
+
+function firstFunction() {
+    console.log("Entering firstFunction");
+    secondFunction();
+    console.log("Exiting firstFunction");
+}
+
+function secondFunction() {
+    console.log("Inside secondFunction");
+}
+
+firstFunction();
+Function Calling Another Function
