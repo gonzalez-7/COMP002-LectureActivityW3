@@ -21,3 +21,8 @@ function secondFunction() {
 }
 
 firstFunction();
+
+function stackOverflow() {
+    return stackOverflow(); 
+}
+
